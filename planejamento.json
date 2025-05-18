@@ -1,0 +1,28 @@
+{
+    "cronograma": [
+        {
+            "id": 1,
+            "descricao": "Pagamento mensal do DAS",
+            "mes": "Janeiro",
+            "prazo": "20/01/2025",
+            "tipo": "pagamento",
+            "status": "pendente"
+        },
+        {
+            "id": 2,
+            "descricao": "Declaração Anual do MEI",
+            "mes": "Março",
+            "prazo": "31/03/2025",
+            "tipo": "declaracao",
+            "status": "pendente"
+        },
+        {
+            "id": 3,
+            "descricao": "Pagamento mensal do DAS",
+            "mes": "Fevereiro",
+            "prazo": "20/02/2025",
+            "tipo": "pagamento",
+            "status": "pendente"
+        }
+    ]
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planejamento - Labirinto Fiscal</title>
+    <link rel="stylesheet" href="planejamento.css">
+</head>
+<body>
+    <div class="container">
+        <header class="main-header">
+            <div class="logo">Entenda Seus Impostos</div>
+            <nav class="nav-links">
+                <a href="index.html">Início</a>
+                <a href="#" class="active">Planejamento</a>
+                <a href="#">Contato</a>
+                <a href="index.html" class="logout">SAIR</a>
+            </nav>
+        </header>
+        
+        <section class="user-header">
+            <h1 class="user-greeting">Olá (nome do usuário)!</h1>
+            <div class="user-status">
+                <span>Tipo: MEI</span>
+                <span>Situação: Regular</span>
+            </div>
+        </section>
+        
+        <div class="main-content">
+            <section class="schedule-section">
+                <h2 class="section-title">CRONOGRAMA SIMPLIFICADO</h2>
+                <p class="schedule-subtitle">Selecione um mês para visualizar as obrigações do MEI</p>
+                
+                <form class="schedule-form">
+                    <div class="form-group">
+                        <label for="month">MÊS</label>
+                        <select id="month">
+                            <option value="">Selecione um mês</option>
+                            <option value="Janeiro">Janeiro</option>
+                            <option value="Fevereiro">Fevereiro</option>
+                            <option value="Março">Março</option>
+                            <option value="Abril">Abril</option>
+                            <option value="Maio">Maio</option>
+                            <option value="Junho">Junho</option>
+                            <option value="Julho">Julho</option>
+                            <option value="Agosto">Agosto</option>
+                            <option value="Setembro">Setembro</option>
+                            <option value="Outubro">Outubro</option>
+                            <option value="Novembro">Novembro</option>
+                            <option value="Dezembro">Dezembro</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-buttons">
+                        <button type="button" class="btn btn-primary" id="viewSchedule">VER CRONOGRAMA</button>
+                        <button type="button" class="btn btn-secondary" id="clearSelection">LIMPAR</button>
+                        <button type="button" class="btn btn-info" id="viewAllMonths">VER TODOS OS MESES</button>
+                    </div>
+                </form>
+                
+                <table class="obligations-table" id="obligationsTable">
+                    <thead>
+                        <tr>
+                            <th>Descrição</th>
+                            <th>Mês</th>
+                            <th>Prazo</th>
+                            <th>Tipo</th>
+                            <th>Status</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+            
+                    </tbody>
+                </table>
+            </section>
+            
+            <section class="tips-section">
+                <h2 class="tips-title">DICAS</h2>
+                <ul class="tips-list">
+                    <li>Como pagar impostos</li>
+                    <li>O que é o DAS</li>
+                    <li>Como parcelar débitos</li>
+                    <li>Consequências do atraso</li>
+                    <li>Como regularizar o MEI</li>
+                    <li>Como emitir notas fiscais</li>
+                    <li>O que muda se eu contratar um funcionário?</li>
+                </ul>
+            </section>
+        </div>
+        
+        <div class="bottom-section">
+            <section class="simulator-section">
+                <h3 class="section-title">SIMULADOR DE DAS</h3>
+                <ul class="bottom-links">
+                    <li><a href="#">BAIXE O APP</a></li>
+                    <li><a href="#">TERMOS DE USO</a></li>
+                </ul>
+            </section>
+            
+            <section class="info-section">
+                <h3 class="section-title">INFORMAÇÕES</h3>
+                <ul class="bottom-links">
+                    <li><a href="#">SOBRE NÓS</a></li>
+                    <li><a href="#">DÚVIDAS FREQUENTES (FAQ)</a></li>
+                </ul>
+            </section>
+        </div>
+        
+        <footer>
+            &copy; 2023 Labirinto Fiscal - Todos os direitos reservados
+        </footer>
+    </div>
+
+    <script src="planejamento.js"></script>
+</body>
+</html>
